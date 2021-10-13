@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bit1.jpeg</file>
+        <file>bit3.jpeg</file>
+    </qresource>
+</RCC>

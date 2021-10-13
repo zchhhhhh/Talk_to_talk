@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerDialog</class>
+ <widget class="QDialog" name="ServerDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>837</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ServerDialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page_1">
+    <property name="styleSheet">
+     <string notr="true">#page_1{background-image: url(:/bit1.jpeg);}</string>
+    </property>
+    <widget class="QLineEdit" name="connectEdit">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>164</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="connectLab">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>160</y>
+       <width>67</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>端口号</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="connectBtn">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>260</y>
+       <width>201</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开启服务器</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="styleSheet">
+     <string notr="true">#page_2{background-image: url(:/bit3.jpeg);}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>80</y>
+       <width>67</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>在线人数</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="numEdit">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>80</y>
+       <width>113</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ipEdit">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>80</y>
+       <width>113</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>80</y>
+       <width>67</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ip地址</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="connectEdit2">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>80</y>
+       <width>113</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>80</y>
+       <width>67</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>端口号</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PersonText">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>120</y>
+       <width>351</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="kickBtn">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>230</y>
+       <width>89</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>踢出</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exitBtn">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>390</y>
+       <width>591</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_OnlineUser">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>120</y>
+       <width>231</width>
+       <height>261</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
